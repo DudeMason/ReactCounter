@@ -12,9 +12,9 @@
   transition-duration: 0.1s;
   box-shadow: 3px 6px 5px 0 #5e5e5e;
   outline: none;
-  padding-top: 30%;
-  padding-bottom: 30%;
-  width: 90%
+  padding-top: 50%;
+  padding-bottom: 50%;
+  width: 91%
 }
 .counter:active {
   background-color: #005F03;
