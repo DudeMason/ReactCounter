@@ -8,15 +8,13 @@ function App() {
   const [prev, countPrev] = useState(0)
 
   return (
-    <div align='center'>
-      <p>
-        <div className='total'>
-          Total: {total}
-        </div>
-        <div className='prevSesh'>
-          Previous Session: {prev}
-        </div>
-      </p>
+    <div>
+      <div className='total'>
+        Total: {total}
+      </div>
+      <div className='prevSesh'>
+        Previous Session: {prev}
+      </div>
       <br/>
       <button className='counter' onClick={() => {countSession(session + 1); countTotal(total + 1);}}>
         Current Session:
