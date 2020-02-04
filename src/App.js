@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
 
 function App() {
+
+  const [session, countSession] = useState(0)
+  const [total, countTotal] = useState(0)
+  const [prev, countPrev] = useState(0)
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div align='center'>
+      <p>
+        <div className='total'>
+          Total: {total}
+        </div>
+        <div className='prevSesh'>
+          Previous Session: {prev}
+        </div>
+      </p>
+      <br/>
+      <button className='counter' onClick={() => {countSession(session + 1); countTotal(total + 1);}}>
+        Current Session:
+        <br/>
+        {session}
+      </button>
+      <br/>
+      <button className='reset' onClick={() => {countPrev(session); countSession(0);}}>
+        Reset
+      </button>
     </div>
-  );
+  )
 }
 
 export default App;
