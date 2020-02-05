@@ -10,27 +10,27 @@ function App() {
   return (
     <div>
       <div className='total'>
-        Total: {total}
+        Current Session: {session}
       </div>
       <div className='prevSesh'>
         Previous Session: {prev}
       </div>
       <br/>
       <button className='counter' onClick={() => {countSession(session + 1); countTotal(total + 1);}}>
-        Current Session:
+        Total:
         <br/>
-        {session}
+        {total}
       </button>
       <br/>
-      <button className='reset' onClick={() => countTotal(0)}>
-        Reset
-        <br/>
-        Total
-      </button>
-      <button className='clear' onClick={() => {countPrev(session); countSession(0);}}>
+      <button className='reset' onClick={() => {countPrev(session); countSession(0); countTotal(0);}}>
         Clear
         <br/>
         Session
+      </button>
+      <button className='clear' onClick={() => countTotal(0)}>
+        Clear
+        <br/>
+        Total
       </button>
     </div>
   )
