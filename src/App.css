@@ -7,13 +7,16 @@
   color: white;
   font-size: 20pt;
   border-radius: 50px;
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
   border: 3px solid #004302;
   box-shadow: 3px 7px 6px 0 #5E5E5E;
   outline: none;
   padding-top: 50%;
   padding-bottom: 50%;
-  width: 90%
+  width: 97%
 }
 .counter:active {
   background-color: #005F03;
