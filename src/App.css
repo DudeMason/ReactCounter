@@ -7,7 +7,7 @@
   color: white;
   font-size: 20pt;
   border-radius: 50px;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-bottom: 20px;
   margin-left: 5px;
   margin-right: 5px;
@@ -63,17 +63,18 @@
 }
 
 div {
-  font-size: 15pt;
+  font-size: 13pt;
   text-align: center;
   padding-bottom: 20px;
 }
 
-.total {
+.session {
   position: absolute;
   left: 20px;
 }
 
-.prevSesh {
+.total {
   position: absolute;
   right: 15px;
+  top: 27px;
 }
