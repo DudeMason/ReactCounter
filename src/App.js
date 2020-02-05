@@ -10,7 +10,7 @@ function App() {
   return (
     <div>
       <div className='total'>
-        Current Session: {session}
+        Session: {session}
       </div>
       <div className='prevSesh'>
         Previous Session: {prev}
