@@ -31,6 +31,7 @@
   font-size: 15pt;
   border-radius: 5px;
   width: 90px;
+  margin: 25px;
   border: 1px solid #000000;
   transition-duration: 0.05s;
   box-shadow: 2px 3px 5px 0 #1a1a1a;
@@ -38,6 +39,25 @@
 }
 .reset:active {
   background-color: #CF0C0C;
+  box-shadow: 1px 2px 1px 0 #1a1a1a;
+  transform: translateY(3px);
+}
+
+.clear {
+  background-color: #0062F0;
+  color: white;
+  padding: 5px;
+  font-size: 15pt;
+  border-radius: 5px;
+  width: 90px;
+  margin: 25px;
+  border: 1px solid #000000;
+  transition-duration: 0.05s;
+  box-shadow: 2px 3px 5px 0 #1a1a1a;
+  outline: none;
+}
+.clear:active {
+  background-color: #0041A0;
   box-shadow: 1px 2px 1px 0 #1a1a1a;
   transform: translateY(3px);
 }

@@ -22,8 +22,11 @@ function App() {
         {session}
       </button>
       <br/>
-      <button className='reset' onClick={() => {countPrev(session); countSession(0);}}>
+      <button className='reset' onClick={() => countTotal(0)}>
         Reset
+      </button>
+      <button className='clear' onClick={() => {countPrev(session); countSession(0);}}>
+        Clear
       </button>
     </div>
   )
