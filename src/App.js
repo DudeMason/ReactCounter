@@ -25,7 +25,7 @@ function App() {
         {total}
       </button>
       <br/>
-      <button className='reset' onClick={() => {previousSessionCount(session); sessionCount(0); totalCount(0);}}>
+      <button className='reset' onClick={() => {previousSessionCount(session); previousTotalCount(total); sessionCount(0); totalCount(0);}}>
         Clear
         <br/>
         Session
