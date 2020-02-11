@@ -14,9 +14,9 @@
   border: 3px solid #004302;
   box-shadow: 3px 7px 6px 0 #5E5E5E;
   outline: none;
-  padding-top: 50%;
-  padding-bottom: 50%;
-  width: 97%
+  padding-top: 175px;
+  padding-bottom: 175px;
+  width: 350px;
 }
 .counter:active {
   background-color: #005F03;
